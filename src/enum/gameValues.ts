@@ -1,0 +1,20 @@
+export enum GameDefault {
+    PIPE_VELOCITY = 200,
+    FLAP_VELOCITY = 400,
+    BIRD_GRAVITY = 1200,
+    PIPES_TO_RENDER = 4,
+}
+
+export enum Level {
+    EASY_LEVEL = 1,
+    MEDIUM_LEVEL = 2,
+    HARD_LEVEL = 3,
+    VERY_HARD_LEVEL = 4,
+    EXTRA_HARD_LEVEL = 5,
+
+    EASY_LEVEL_SCORE = 0,
+    MEDIUM_LEVEL_SCORE = 10,
+    HARD_LEVEL_SCORE = 50,
+    VERY_HARD_LEVEL_SCORE = 100,
+    EXTRA_HARD_LEVEL_SCORE = 150,
+}
